@@ -11,6 +11,7 @@ require 'floyd/matrix_generator'
 require 'floyd'
 require 'fizzbuzz'
 require 'factorial'
+require 'fibonacci'
 
 module Algorithm
   def self.floyd(input_graph=nil)
@@ -37,6 +38,10 @@ module Algorithm
 
   def self.factorial(n=5)
     puts Benchmark.measure { Factorial.run!(n) }
+  end
+
+  def self.fibonacci(n=5)
+    puts Benchmark.measure { Fibonacci.run!(n) }
   end
 end
 
