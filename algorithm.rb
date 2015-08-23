@@ -10,6 +10,7 @@ require 'floyd/graph_parser'
 require 'floyd/matrix_generator'
 require 'floyd'
 require 'fizzbuzz'
+require 'factorial'
 
 module Algorithm
   def self.floyd(input_graph=nil)
@@ -32,6 +33,10 @@ module Algorithm
 
   def self.fizzbuzz
     puts Benchmark.measure { FizzBuzz.run! }
+  end
+
+  def self.factorial(n=5)
+    puts Benchmark.measure { Factorial.run!(n) }
   end
 end
 
