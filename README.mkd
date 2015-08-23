@@ -3,5 +3,26 @@ Repository with a collection of algorithms
 
 ### How to Run
 ```
-ruby algorithm.rb
+$ ruby algorithm.rb
 ```
+
+With this will open the IRB on your console
+
+### Run the Floyd algorithm
+```
+irb(main):001:0> Algorithm.floyd
+```
+
+Or informing the file with the graph
+
+```
+irb(main):001:0> Algorithm.floyd path_file/graph.txt
+```
+> The file with the graph should have the format:
+> 
+> AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
+> 
+> where A and B are vertices and 5 is the edge weight
+
+
+
