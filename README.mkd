@@ -2,6 +2,6 @@
 Repository with a collection of algorithms
 
 ### How to Run
-```
+```shell
 ruby algorithm.rb
 ```
