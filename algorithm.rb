@@ -8,6 +8,7 @@ require 'irb/completion'
 require 'floyd/graph_parser'
 require 'floyd/matrix_generator'
 require 'floyd'
+require 'fizzbuzz'
 
 module Algorithm
   def self.floyd(input_graph=nil)
@@ -21,6 +22,10 @@ module Algorithm
     puts "\n\nMatrix Route"
     pp matrix_route
     nil
+  end
+
+  def self.fizzbuzz
+    FizzBuzz.run!
   end
 end
 
