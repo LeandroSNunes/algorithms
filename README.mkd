@@ -1,0 +1,7 @@
+## Algorithms
+Repository with a collection of algorithms
+
+### How to Run
+```
+ruby algorithm.rb
+```
